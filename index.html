@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roblox Developer Portfolio</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+            background-color: #0b0d11; /* Dark Roblox-themed background */
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            background-color: #0b0d11;
+            line-height: 1.6;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 40px;
+            border-bottom: 2px solid #393b3d;
+        }
+        .profile-tag {
+            background-color: #00a2ff;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 32pt;
+            margin: 10px 0;
+            color: #ffffff;
+        }
+        h2 {
+            font-size: 18pt;
+            color: #00a2ff;
+            border-left: 5px solid #00a2ff;
+            padding-left: 15px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p {
+            font-size: 11pt;
+            color: #bdbebf;
+        }
+        .grid {
+            display: table;
+            width: 100%;
+            border-spacing: 10px;
+        }
+        .project-card {
+            display: table-cell;
+            background-color: #1e2024;
+            padding: 15px;
+            border-radius: 8px;
+            width: 50%;
+            vertical-align: top;
+            border: 1px solid #393b3d;
+        }
+        .project-title {
+            font-weight: bold;
+            font-size: 13pt;
+            color: #ffffff;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill-item {
+            background: #2b2e33;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 4px;
+            font-size: 10pt;
+            border: 1px solid #393b3d;
+            display: inline-block;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #00a2ff 0%, #0077bc 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-box h3 {
+            margin-top: 0;
+            color: white;
+        }
+        .contact-box p {
+            color: white;
+            font-weight: bold;
+        }
+        .footer {
+            text-align: center;
+            font-size: 9pt;
+            color: #555;
+            margin-top: 50px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-tag">ROBLOX DEVELOPER</div>
+            <h1>[JOUW NAAM / USERNAME]</h1>
+            <p>Gespecialiseerd in Luau Scripting & Game Design | 3+ Jaar Ervaring</p>
+        </header>
+
+        <section id="about">
+            <h2>Over Mij</h2>
+            <p>
+                Ik ben een gepassioneerde Roblox-ontwikkelaar met een focus op het creëren van meeslepende en performante ervaringen. 
+                Mijn expertise ligt in het bouwen van complexe systemen die zowel schaalbaar als gebruiksvriendelijk zijn. 
+                Ik streef altijd naar "clean code" en een soepele gameplay-ervaring voor alle apparaten.
+            </p>
+        </section>
+
+        <section id="showcase">
+            <h2>Showcase</h2>
+            <div class="grid">
+                <div class="project-card">
+                    <span class="project-title">Project Alpha: Simulator</span>
+                    <p>Volledig backend systeem inclusief DataStores, Pet systemen en geoptimaliseerde Round-mechanics.</p>
+                </div>
+                <div class="project-card">
+                    <span class="project-title">Combat Framework</span>
+                    <p>Een modulair combat-systeem met raycasting, hitboxes en vloeiende animaties.</p>
+                </div>
+            </div>
+            <div class="grid" style="margin-top: 10px;">
+                <div class="project-card">
+                    <span class="project-title">Cyber City Map</span>
+                    <p>High-poly omgeving gebouwd met een mix van Roblox Studio en Blender assets.</p>
+                </div>
+                <div class="project-card">
+                    <span class="project-title">Custom UI Kit</span>
+                    <p>Moderne, responsieve interface ontworpen voor mobile en PC spelers.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Vaardigheden</h2>
+            <div>
+                <span class="skill-item">Luau (Advanced)</span>
+                <span class="skill-item">Blender 3D</span>
+                <span class="skill-item">Knit Framework</span>
+                <span class="skill-item">UI Design</span>
+                <span class="skill-item">DataStore2</span>
+                <span class="skill-item">Git / Rojo</span>
+                <span class="skill-item">Particle Effects</span>
+                <span class="skill-item">Performance Optimization</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact-box">
+                <h3>Laten we samenwerken!</h3>
+                <p>Discord: @JouwGebruikersnaam</p>
+                <p>Twitter: @JouwHandle</p>
+                <p style="font-size: 10pt; opacity: 0.9;">Beschikbaar voor commissions en lange-termijn projecten.</p>
+            </div>
+        </section>
+
+        <div class="footer">
+            Gemaakt door [Jouw Naam] &bull; Roblox Portfolio 2024
+        </div>
+    </div>
+</body>
+</html>
